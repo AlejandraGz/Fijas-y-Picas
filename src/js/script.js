@@ -33,7 +33,7 @@ let auxiliarNumb = ''
 const addInputValue = () => {
   index++
   checkState()
-  if (index == 5) {
+  if (index == 5 && auxiliarNumb != generatedNumber) {
     endGame()
     return
   }
