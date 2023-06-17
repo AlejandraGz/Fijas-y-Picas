@@ -76,7 +76,7 @@ const checkState = () => {
 
 const endGame = () => {
   setTimeout(() => {
-    alert('Perdiste')
+    alert(`Perdiste, el número secreto era: ${generatedNumber}`)
   }, "500");
   setTimeout(() => {
     window.location.reload()
