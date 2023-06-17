@@ -9,7 +9,6 @@ const numberGenerator = () => {
 };
 const onload = () => {
   generatedNumber = numberGenerator()
-  console.log(generatedNumber)
   document.getElementById("r1c1").focus()
   for (let j = 2; j < 5; j++) {
     for (let i = 0; i < 3; i++) {
